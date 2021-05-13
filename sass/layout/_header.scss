@@ -1,2 +1,9 @@
-.header {
- 
+.header.scss {
+    .localisation{
+    display: flex;
+    justify-content: center;
+    background-color:(255, 255, 255),(4, 136, 4),(13, 13, 241);
+    font-size: 1.5rem;
+    height:10rem;
+}
+}

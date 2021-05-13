@@ -1,19 +1,19 @@
-@import "./utils/variables";
-@import "./utils/functions";
-@import "./utils/mixins";
-@import "./utils/extensions";
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
 
-@import "./base/base";
-@import "./base/typography";
+@import "base/base";
+@import "base/typography";
 
-@import "./components/buttons";
+@import "components/buttons";
 
-@import "./layout/header";
-@import "./layout/nav";
-@import "./layout/container";
-@import "./layout/form";
+@import "layout/container";
+@import "layout/form";
+@import "layout/header";
+@import "layout/nav";
 
 
-@import "./pages/work";
-@import "./pages/about";
-@import "./pages/project";
+@import "pages/project";
+
+/*typo*/
+@import url('https://fonts.googleapis.ccom/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');

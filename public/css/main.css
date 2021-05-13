@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.ccom/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+body { font-family: 'Roboto', sans-serif; font-size: 2rem; font-weight: 100; line-height: 1.7; }
+
+.container.scss { background-color: blanchedalmond; }
+
+_form.scss { color: black; }
+
+.header.scss .localisation { display: flex; justify-content: center; background-color: 255, 255, 255, 4, 136, 4, 13, 13, 241; font-size: 1.5rem; height: 10rem; }
+
+.nav-scss { color: black; }
+
+/*typo*/
