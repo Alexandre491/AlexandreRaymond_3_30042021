@@ -1,3 +1,6 @@
+/*typo*/
+@import url('https://fonts.googleapis.ccom/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+
 @import "utils/variables";
 @import "utils/functions";
 @import "utils/mixins";
@@ -12,8 +15,4 @@
 @import "layout/header";
 @import "layout/nav";
 
-
-@import "pages/project";
-
-/*typo*/
-@import url('https://fonts.googleapis.ccom/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+@import "pages/project"; 
