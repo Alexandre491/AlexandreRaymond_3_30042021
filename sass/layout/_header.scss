@@ -1,9 +1,13 @@
-.header.scss {
-    .localisation{
-    display: flex;
-    justify-content: center;
-    background-color:(255, 255, 255),(4, 136, 4),(13, 13, 241);
-    font-size: 1.5rem;
-    height:10rem;
+header {
+    width:100%;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+        img {
+        display: flex;
+        margin: auto;
+        margin-top: 2rem;
+        width: 40%;
+        max-width: 25%;
+        min-width: 300px;
 }
 }

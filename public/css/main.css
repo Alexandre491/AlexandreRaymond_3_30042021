@@ -1,29 +1,52 @@
 /*typo*/
 @import url("https://fonts.googleapis.ccom/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 body, html { margin: 0; font-family: 'roboto', 'sans-serif'; }
 
-.container { max-width: 1280px; margin: auto; position: relative; }
+.container { max-width: 1280px; margin: auto; }
 
-.header { padding: 1rem; position: relative; z-index: 1000; }
+.header { padding: 1rem; text-align: center; font-family: 'skykhand', 'cursive'; margin: 0; }
 
-.header h1 { font-family: 'skykhand', 'cursive'; margin: 0; text-align: center; }
+body { font-family: 'roboto', 'sans-serif'; color: inherit; font-size: 2rem; font-weight: 100; line-height: 1.5; }
 
-.footer { background-color: #353535; }
+textarea { font-family: 'roboto', 'sans-serif'; font-weight: 100; font-size: 2rem; }
 
-.footer .container { display: flex; flex-direction: column; }
+h2 { font-size: 3.5rem; line-height: 3.5rem; font-weight: 900; }
 
-.footer .container img { color: white; font-family: 'Shrikhand', 'cursive'; margin: 0; font-size: 1rem; }
+a { text-decoration: none; color: white; }
 
-.footer .container link { color: white; text-decoration: none; }
+header { width: 100%; box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25); padding: 1rem; }
 
-.footer .container link :hover { text-decoration: underline; }
+header img { display: flex; margin: auto; margin-top: 2rem; width: 40%; max-width: 25%; min-width: 300px; }
 
-.footer .container img { width: 1rem; margin-right: 0.5rem; }
+.localisation { display: flex; justify-content: center; align-items: center; background-color: #f3f3f3; font-size: 2rem; font: weight 200px; padding: 1.5rem; }
 
-body { font-family: 'Roboto', sans-serif; font-size: 2rem; font-weight: 100; line-height: 1.7; }
+.localisation .icon_localisation { margin-right: 2rem; height: 40px; }
 
-_form.scss { color: black; }
+.explorer { text-align: center; padding: 2rem; padding-top: 6rem; background-color: #fafafa; height: 28rem; }
 
-.header.scss .localisation { display: flex; justify-content: center; background-color: 255, 255, 255, 4, 136, 4, 13, 13, 241; font-size: 1.5rem; height: 10rem; }
+.explorer h2 { margin: 0; }
 
-.nav-scss { color: black; }
+.explorer p { margin: 2rem; font-size: 3.2rem; line-height: 3.5rem; font-weight: lighter; color: #828282; margin-bottom: 3rem; }
+
+.explorer a { border: 0; padding: 1.5rem 2rem; border-radius: 100px; background: linear-gradient(#FF79DA, #9356DC); margin: 4rem; }
+
+.explorer a a { color: white; }
+
+.fonctionnement { padding: 3rem; }
+
+.fonctionnement h2 { margin-top: 3rem; }
+
+ol { padding: 0; list-style-type: none; counter-reset: 1; }
+
+ol + li { margin: 0; padding: 0; list-style: none; }
+
+li { padding: 1.5rem; height: 6rem; margin: 1rem 0 1rem 0rem; box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.125); display: flex; border-radius: 40px; position: relative; display: flex; justify-content: left; background-color: #fafafa; align-items: center; }
+
+li img { height: 40px; margin-left: 2rem; }
+
+.texte { position: absolute; margin-left: 8rem; }
+
+.restaurants { padding: 3rem; background-color: #fafafa; height: 25rem; overflow: hidden; }
+
+.restaurants .vignette { display: flex; margin: auto; background-color: yellow; }
