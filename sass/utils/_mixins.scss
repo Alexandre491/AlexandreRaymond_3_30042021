@@ -4,18 +4,6 @@
     align-items: center;
 }
 
-@mixin img-ratio {
-    width: 100%;
-    display: block;
-    overflow: hidden;
-    & img {
-        position: absolute;
-        top:50%;
-        left: 50%;
-        width: 100%;
-        transform:translate(50);
-    }
-}
 
 @mixin icon-size{
     height: 40px;

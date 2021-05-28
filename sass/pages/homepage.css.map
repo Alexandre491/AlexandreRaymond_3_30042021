@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,KADC,CACD,aAAa,CAAA;EACT,UAAU,EAAE,IAAI;CACnB",
-    "sources": [
-        "homepage.scss"
-    ],
-    "names": [],
-    "file": "homepage.css"
-}

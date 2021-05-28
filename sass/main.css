@@ -43,24 +43,6 @@ a {
   color: white;
 }
 
-header {
-  width: 100%;
-  -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-  padding: 1rem;
-}
-
-header img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
-  margin-top: 2rem;
-  width: 40%;
-  max-width: 25%;
-  min-width: 300px;
-}
-
 .localisation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,13 +154,125 @@ li img {
   background-color: #fafafa;
 }
 
-.vignettes {
+.restaurants .vignettes {
+  display: block;
+}
+
+.restaurants .vignettes .vignette {
+  height: 36rem;
+  overflow: hidden;
+  display: block;
+  background-color: white;
+  border-radius: 2rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.restaurants .vignettes .vignette figure {
+  border-radius: 30px 0 0;
+  overflow: hidden;
+  height: 70%;
+  width: 50rem;
+  margin: 0;
+}
+
+.restaurants .vignettes .vignette figure .vignette__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 24rem;
+}
+
+.restaurants .vignettes .vignette_indication_nouveau {
+  background-color: #99E2D0;
+  padding: 0.5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: #1b6150;
+}
+
+.restaurants .vignettes .vignette_div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
-  border-radius: 30px;
-  -webkit-box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.125);
-          box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.125);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurants .vignettes .vignette_titre {
+  color: black;
+  margin: 0 0 0 1rem;
+}
+
+.restaurants .vignettes .vignette_sous_titre {
+  color: black;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.restaurants .vignettes .icon_coeur {
+  width: 3rem;
+  margin-left: 21rem;
+}
+
+.restaurants .vignettes .menu_bouton {
+  height: 4rem;
+}
+
+.icon_footer {
+  height: 50px;
+}
+
+header {
+  width: 96%;
+  -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+}
+
+header img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 2rem;
+  width: 40%;
+  max-width: 25%;
+  min-width: 300px;
+}
+
+footer {
+  background-color: #131313;
+  width: 100%;
+  height: 27rem;
+}
+
+footer .container {
+  padding: 3rem;
+}
+
+footer img {
+  width: 14rem;
+  margin-bottom: 2rem;
+}
+
+footer .icon_footer {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+footer .footer_liste_texte_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
