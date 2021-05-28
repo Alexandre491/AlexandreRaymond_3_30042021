@@ -1,0 +1,189 @@
+$violet: #9356DC;
+$rose: #FF79DA;
+$vert_menthe: #99E2D0;
+
+@mixin flexMid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bouton {
+    border: 0;
+    padding: 1.5rem 2rem ;
+    border-radius: 100px;
+    background: linear-gradient($rose, $violet);
+
+    a{
+        color: white;
+    }
+}
+
+@mixin icon-size{
+    height: 40px;
+}
+
+header {
+    width:96%;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+        img {
+        display: flex;
+        margin: auto;
+        margin-top: 2rem;
+        width: 40%;
+        max-width: 25%;
+        min-width: 300px;
+}
+}
+
+body, html {
+    margin: 0;
+    font-family: 'roboto', 'sans-serif';
+}
+
+body {
+    font-family: 'roboto', 'sans-serif';
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+textarea {
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: initial;
+    font-weight:bolder;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.image_header{
+    max-width: 100%;
+    max-height: 32rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu_contenaire{
+    margin-top: -4rem;
+    border-radius: 4rem 4rem 0 0;
+    background-color: #f6f6f6;
+    position: relative;
+    
+        &_header{
+            display: flex;
+            font-family: "Shrikhand";
+            padding-left: 3rem;
+            align-items: center;
+            margin: auto;
+        }
+        &_titre{
+            margin-right: 55%
+        }
+}
+.menu_contenaire_like{
+    height: 50px;
+    border: none;
+}
+
+article{
+    margin-left: 3rem;
+
+    h3 {
+        font-weight: 100;
+}
+}
+
+.catégories{
+    padding: 1rem 0 1rem 2rem;
+    background-color: white;
+    border-radius: 40px;
+    position: relative;
+
+    .menu_item{
+        display: flex;
+    }
+    .menu_item_icon_ok{
+        opacity: 0;
+    }
+
+    h4{
+        font-size: 2.5rem;
+        margin: 0 0 0 0;
+    }
+
+    p{
+        font-size: 2rem;
+        margin: 0 0 1rem 0;
+
+    }
+
+    .menu_item_prix{
+        position:absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+
+    }
+}
+.bouton{
+    @include flexMid;
+    padding: 6rem;
+
+    a{
+        color: white;
+    }
+}
+.commander_bouton {
+
+        border: 0;
+        padding: 1.5rem rem ;
+        border-radius: 100px;
+        background: linear-gradient($rose, $violet);
+        color: white;
+        padding: 1.8rem 4.5rem;
+        font-size: 2.2rem;        
+
+}
+
+
+footer{
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    height: 27rem;
+        .container{
+            padding: 3rem;
+        }
+        img{
+            width: 14rem;
+            margin-bottom: 2rem;
+        }
+        .icon_footer{
+            width: 3rem;
+            margin-right: 2rem;
+        }
+        .footer_liste_texte_logo{
+            display: flex;
+        }
+        .icon_footer{
+            height: 50px;
+        }
+        a{
+            color: white;
+        }
+}

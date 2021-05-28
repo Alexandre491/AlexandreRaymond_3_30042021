@@ -3,78 +3,88 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="sass/main.scss">
+        <link rel="stylesheet" href="sass/pages/menupage.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
         <title>Oh my food</title>
     </head>
 
-    <body>
+    <body class="container">
         <header>
             <img src="./public/img/logo-ohmyfood.png" alt="logo-ohmyfood">
         </header>
 
         <main>
-            <img src="public/img/3 assiette.svg" class="3 assiette" alt="assiette de restaurant">
+            <img src="./public/img/3 assiette.jpg" class="image_header" alt="assiette de restaurant">
 
             <div class="menu_contenaire">
-                <div class="menu_header">
-                    <h2 class="menu_titre">A la française</h2>
+                <div class="menu_contenaire_header">
+                    <h2 class="menu_contenaire_titre">A la française</h2>
                     <button class="menu_bouton">
-                        <img href="#" class="menu_validé">
-                        <img href="#" class="menu_validé">
+                        <img src="./public/img/icon_coeur.png" class="menu_contenaire_like">
                     </button>
                 </div>
 
-                <div class="menu_catégories">
+                <article class="menu_catégories">
+                <a href="#" class="plats" >
                     <h3>ENTREES</h3>
-                    <section class="catégories">
-                        <section class="menu_item">
+                    <div class="catégories">
+                        <div class="menu_item">
                             <div class="menu_item_header">
                                 <h4 class="menu_item_titre">Velouté de légumes d'antan</h4>
                                 <p class="menu_item_description">carotte, panais, topinambour</p>
                             </div>
                             <span class="menu_item_prix">35€</span>
                             <div class="menu_item_icon_ok">
-                                <img src="" alt="icon_check">
+                                <img src="#" alt="icon_check">
                             </div>
-                        </section>
-                    </section>
-                </div>
+                        </div>
+                    </div>
+                </a>
+                </article>
 
-                <div class="menu_catégories">
-                    <h3>PLATS</h3>
-                    <section class="catégories">
-                        <section class="menu_item">
-                            <div class="menu_item_header">
-                                <h4 class="menu_item_titre">Velouté de légumes d'antan</h4>
-                                <p class="menu_item_description">carotte, panais, topinambour</p>
+                <article class="menu_catégories">
+                    <a href="#" class="plats" >
+                        <h3>ENTREES</h3>
+                        <div class="catégories">
+                            <div class="menu_item">
+                                <div class="menu_item_header">
+                                    <h4 class="menu_item_titre">Velouté de légumes d'antan</h4>
+                                    <p class="menu_item_description">carotte, panais, topinambour</p>
+                                </div>
+                                <span class="menu_item_prix">35€</span>
+                                <div class="menu_item_icon_ok">
+                                    <img src="#" alt="icon_check">
+                                </div>
                             </div>
-                            <span class="menu_item_prix">35€</span>
-                            <div class="menu_item_icon_ok">
-                                <img src="" alt="icon_check">
-                            </div>
-                        </section>
-                    </section>
-                </div>
+                        </div>
+                    </a>
+                </article>
 
-                <div class="menu_catégories">
-                    <h3>DESSERT</h3>
-                    <section class="catégories">
-                        <section class="menu_item">
-                            <div class="menu_item_header">
-                                <h4 class="menu_item_titre">Velouté de légumes d'antan</h4>
-                                <p class="menu_item_description">carotte, panais, topinambour</p>
+                <article class="menu_catégories">
+                        <a href="#" class="plats" >
+                            <h3>ENTREES</h3>
+                            <div class="catégories">
+                                <div class="menu_item">
+                                    <div class="menu_item_header">
+                                        <h4 class="menu_item_titre">Velouté de légumes d'antan</h4>
+                                        <p class="menu_item_description">carotte, panais, topinambour</p>
+                                    </div>
+                                    <span class="menu_item_prix">35€</span>
+                                    <div class="menu_item_icon_ok">
+                                        <img src="#" alt="icon_check">
+                                    </div>
+                                </div>
                             </div>
-                            <span class="menu_item_prix">35€</span>
-                            <div class="menu_item_icon_ok">
-                                <img src="" alt="icon_check">
-                            </div>
-                        </section>
-                    </section>
-                </div>
+                        </a>
+                </article>
 
-            </div>
-                  
-            <button class="bouton_commander">Commander</button>
+                <div class="bouton">
+                    <a class="commander_bouton">Commander</a>
+                </div> 
+
+            </div>     
+
         </main>
 
         <footer>
