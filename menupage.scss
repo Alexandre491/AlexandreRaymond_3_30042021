@@ -133,14 +133,51 @@ article{
     margin-bottom: 1rem;
     margin-right:1rem ;
     box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.125);
-
-    .menu_item{
-        display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    animation: apparition ease-out 1.2s;
+    display: flex;
     }
-    .menu_item_icon_ok{
-        opacity: 0;
+    @keyframes apparition {
+       from{
+           opacity: 0;
+           transform: translateY(40px);
+       }
+       to {
+           opacity: 1;
+           transform: translateY(0);
+       }
     }
+    
+    .delay1{
+        animation: apparition ease-out 0.5s;
 
+    }
+    .delay2{
+        animation: apparition ease-out 0.8s;
+    }
+    .delay3{
+        animation: apparition ease-out 1.1s;
+    }
+    .delay4{
+        animation: apparition ease-out 1.3s;
+    }
+    .delay5{
+       animation: apparition ease-out 1.5s;
+    }
+    .delay6{
+        animation: apparition ease-out 1.7s;
+    }
+    .delay7{
+        animation: apparition ease-out 1.8s;
+    }
+    .delay8{
+        animation: apparition ease-out 2s;
+    }
+    .delay9{
+        animation: apparition ease-out 2s;
+    }
+    
     h4{
         font-size: 1.1rem;
         font-weight: 900;
@@ -153,16 +190,42 @@ article{
         margin: 0 0 1rem 0;
 
     }
+    .menu_item{
+        display: flex;
+        flex: 1;
 
+        &_header{
+            flex: 1;
+        }
+    }
     .menu_item_prix{
-        position:absolute;
-        right: 0;
-        bottom: 0;
-        margin-right: 2rem;
-        margin-bottom: 1rem;
+        margin-top: 0.8rem;
+    }
 
+.menu_item_icon_check {
+    background: $vert_menthe;
+    width: 4rem;
+    height: 5rem;
+    margin: -1rem -4rem 0 1rem;
+    align-items:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 5s;
+    &:hover {
+        margin:-1rem 0 0 1rem;
     }
 }
+
+
+.icon_check{
+    height: 30px;
+    display: flex;
+    transform: rotate(360deg);
+    transition-duration: 0.4s;
+}
+
+
 .bouton{
     @include flexMid;
     padding:2rem 2rem 3rem 2rem;
@@ -263,6 +326,7 @@ main{
         height: 100vh;
         position: fixed;
         top: 0;
+        margin-top: 3rem;
     }
 
     .menu_contenaire{
